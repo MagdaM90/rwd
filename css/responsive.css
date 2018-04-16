@@ -1,0 +1,45 @@
+@media all and (max-width: 1170px) {
+    #head {
+        background-image: url(../img/man-2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+    }
+    h1,
+    h2 {
+        text-align: right;
+        top: 10%;
+
+    }
+
+    h1 {
+        padding-right: 260px;
+    }
+
+    h2 {
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+}
+
+@media all and (max-width: 992px) {
+    #head {
+        background-image: url(../img/man-1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+    }
+    h1,
+    h2 {
+        text-align: center; 
+        top: 120%; 
+        color: #000; 
+        margin-top: 15px; 
+    }
+    h1 {
+        padding: 0;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+}
