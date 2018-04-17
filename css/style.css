@@ -2,7 +2,14 @@
     box-sizing: border-box;
 }
 
-#head {
+body {
+    font-family: Verdana, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#header {
     background-image: url(../img/man-1.jpg);
     background-position: center;
     background-size: cover;
@@ -10,22 +17,20 @@
     position: relative;
 }
 
-h1,
-h2 {
-    font-family: Verdana, sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    padding-left: 30px;
+#head {
+    position: absolute;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
-    position: absolute;
+    text-align: left;
+    padding: 30px;
+
 }
 
 h1 {
     font-size: 20px;
-    padding-bottom: 50px;
 }
+
 h2 {
     font-size: 30px;
 }
